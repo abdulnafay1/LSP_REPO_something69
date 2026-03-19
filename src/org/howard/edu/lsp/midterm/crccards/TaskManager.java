@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Manages a collection of Task objects.
  * Uses a LinkedHashMap to prevent duplicate IDs and support lookup by taskId.
- * @author [Your Name]
+ * @author Abdul Nafay Saleem
  */
 public class TaskManager {
     private Map<String, Task> tasks = new LinkedHashMap<>();
